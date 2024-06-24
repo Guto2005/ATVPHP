@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./img/R.jpg);
+    background-size: cover;
+    gap: 32px;
+}
+
+.titulo {
+    font-size: 120px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.dataNasc {
+    font-size: 40px;
+}
+
+.Calendario {
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+.botao {
+    font-size: 30px;
+    color: white;
+    background-color: green;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px; 
+    background-color: rgb(231, 231, 231);
+    padding: 20px;
+}
